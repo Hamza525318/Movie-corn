@@ -1,0 +1,56 @@
+.nav_box{
+    margin: 0px 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav_box h1{
+    width: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(192, 100, 100);
+    
+}
+.nav_searchbox{
+    padding: 3px 0px;
+    display: flex;
+    width: 185px;
+    background-color: #fff;
+    align-items: center;
+    border: 1px solid #141414;
+   
+}
+.nav_right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.movie_input:focus {
+    outline: none;
+    box-shadow: none!important;
+    
+  }
+.movie_input{
+    width: 150px;
+    border: none;
+    background-color: transparent;
+}
+.movie_searchicon{
+    color: black;
+}
+
+@media (max-width:780px){
+    .nav_box h1{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_right{
+        margin: 20px auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+}
+

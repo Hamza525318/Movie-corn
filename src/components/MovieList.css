@@ -1,0 +1,45 @@
+
+
+.movie_lists h2{
+
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.row_posters{
+    display: flex;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.row_posters{
+    scrollbar-width: none ;
+}
+.search{
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search img{
+
+
+    
+    margin-right: 10px;
+    width: 160px;
+    transition: transform 450ms;
+}
+
+
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
